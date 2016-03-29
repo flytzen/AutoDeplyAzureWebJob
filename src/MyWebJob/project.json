@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "description": "MyWebJob Console Application",
+  "authors": [ "FransLytzen" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.Azure.WebJobs": "1.1.1",
+    "Model": "1.0.0-*"
+  },
+
+  "commands": {
+    "MyWebJob": "MyWebJob"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}
